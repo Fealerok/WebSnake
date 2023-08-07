@@ -1,0 +1,101 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.body_page button{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border: 1px solid gray;
+    border-radius: 50px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+.game-stats{
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+}
+
+.game-field{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.food{
+    border: 1px solid black;
+}
+
+.item{
+    border: 1px solid  black;
+}
+
+.snake-body{
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 25px;
+    height: 25px;
+}
+
+.game-field .head{
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 25px;
+    height: 25px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.hidden{
+    display: none !important;
+}
+
+.top-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+}
+
+.bottom-content{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+
+.bottom-content button{
+    width: 200px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
